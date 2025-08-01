@@ -1,0 +1,39 @@
+{
+  "appName": "TextToSpeech Frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Speech to text voice transcription app, built with React and Supabase authentication.",
+  "maintainer": {
+    "name": "Smarth Sarin",
+    "email": "smarthsarin@gmail.com",
+    "github": "https://github.com/Smarthsarin"
+  },
+  "environments": {
+    "development": {
+      "frontendUrl": "http://localhost:5173",
+      "apiBaseUrl": "http://localhost:5000"
+    },
+    "production": {
+      "frontendUrl": "https://speech-to-text-frontend-phi.vercel.app",
+      "apiBaseUrl": "https://texttospeechbackend-1.onrender.com"
+    }
+  },
+  "features": [
+    "User authentication via Supabase",
+    "Audio file upload (MP3/WAV)",
+    "Google Speech-to-Text integration (via backend)",
+    "Transcription history display",
+    "Responsive React UI with Tailwind CSS"
+  ],
+  "upgradeHistory": [
+    {
+      "version": "1.0.0",
+      "date": "2025-07-30",
+      "changes": [
+        "Added login/signup/reset flow using Supabase",
+        "Implemented upload and display of transcription results",
+        "Integrated backend API with Axios",
+        "Deployed frontend to Vercel"
+      ]
+    }
+  ]
+}
