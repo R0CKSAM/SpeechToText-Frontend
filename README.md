@@ -1,4 +1,4 @@
-# Speech to Text Frontend (React + Vite)
+# SpeechToText-Frontend (React + Vite)
 
 A sleek and modern frontend for transcribing audio files into readable text using Google Cloud Speech-to-Text API via a connected backend. This project uses **React + Vite**, **Supabase Auth**, **Tailwind CSS**, and is fully deployable to **Vercel**.
 
@@ -52,7 +52,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/speech-to-text-frontend.git
+git clone https://github.com/your-username/SpeechToText-Frontend.git
 cd speech-to-text-frontend
 ```
 

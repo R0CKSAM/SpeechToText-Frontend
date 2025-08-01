@@ -1,11 +1,11 @@
 {
-  "appName": "TextToSpeech Frontend",
+  "appName": "SpeechToText-Frontend",
   "version": "1.0.0",
   "description": "Frontend for the Speech to text voice transcription app, built with React and Supabase authentication.",
   "maintainer": {
     "name": "Smarth Sarin",
     "email": "smarthsarin@gmail.com",
-    "github": "https://github.com/Smarthsarin"
+    "github": "https://github.com/R0CKSAM/SpeechToText-Frontend"
   },
   "environments": {
     "development": {
@@ -13,8 +13,8 @@
       "apiBaseUrl": "http://localhost:5000"
     },
     "production": {
-      "frontendUrl": "https://speech-to-text-frontend-phi.vercel.app",
-      "apiBaseUrl": "https://texttospeechbackend-1.onrender.com"
+      "frontendUrl": " https://speech-to-text-frontend-ashen.vercel.app",
+      "apiBaseUrl": " https://speechtotext-backend-d6ok.onrender.com"
     }
   },
   "features": [
