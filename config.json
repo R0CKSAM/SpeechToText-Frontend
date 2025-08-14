@@ -14,7 +14,7 @@
     },
     "production": {
       "frontendUrl": " https://speech-to-text-frontend-ashen.vercel.app",
-      "apiBaseUrl": " https://speechtotext-backend-d6ok.onrender.com"
+      "apiBaseUrl": " https://texttospeechbackend-gloy.onrender.com"
     }
   },
   "features": [
